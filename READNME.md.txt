@@ -1,0 +1,31 @@
+# 🌦️ Weather App (Tkinter + OpenWeatherMap API)
+
+This is a simple Python desktop application that fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/api) and displays it using a user-friendly GUI built with `tkinter`.
+
+## 📌 Features
+
+- Enter any city name and get:
+  - Temperature in °C
+  - Weather description (e.g., clear sky, rain)
+- Error handling for invalid cities
+- Easy-to-use graphical interface
+
+## 🛠️ Tech Stack
+
+- **Language:** Python
+- **GUI Framework:** tkinter
+- **API:** OpenWeatherMap Geo API + Current Weather API
+- **HTTP Requests:** `requests` module
+
+## 🖥️ GUI Preview
+
+> 🔍 A window with a search box and a "Search city" button. The results are displayed below in °C and description.
+
+## 🧪 How to Run
+
+1. **Clone this repository**:
+ 
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app
+📸 Sample Output
+26.85°C, scattered clouds
