@@ -5,6 +5,7 @@ from BACKEND import get_coordinates, get_weather
 
 #Makes a pop up window to show result
 def show_weather(city , temprature, description):
+     global next_window 
      next_window = Toplevel()
      next_window.title("weather result")
      next_window.geometry("300x200")
@@ -12,6 +13,7 @@ def show_weather(city , temprature, description):
      Label(next_window, text= f"city: {city}").grid(pady= 5)
      Label(next_window, text= f"temprature: {temprature}").grid(pady= 5)
      Label(next_window, text= f"description: {description}").grid(pady= 5)
+     
 
 #makes first window to search the city
 def run_app():
